@@ -1,0 +1,6 @@
+message IOTaint {
+	required uint64 tb_pc = 55;
+	required uint64 tb_cs_base = 56;
+}
+
+optional IOTaint io_taint = 57;
